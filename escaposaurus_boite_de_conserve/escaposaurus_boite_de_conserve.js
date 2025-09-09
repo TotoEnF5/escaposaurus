@@ -46,14 +46,15 @@
                                 "files": [ "rambo.jpg", "rambo2.jpg", "rambo bébou.jpg", "rambo je taime.jpg" ]
                             },
                             {
-                                "foldername": "mike_rowave"
+                                "foldername": "mike_rowave",
+                                "files": [ "rapport.png", "vlog.mp4" ]
                             },
                             {
                                 "foldername": "albert_jr_smart",
                                 "folders": [
                                     {
                                         "foldername": "mails",
-                                        "files": [ "mercipapa", "test", "conserve" ]
+                                        "files": [ "mercipapa.jpg", "test.jpg", "conserve.jpg" ]
                                     }
                                 ]
                             },
@@ -78,7 +79,7 @@
 
 		var gameTitle = "Escaposaurus Scenario Exemple" ;
 		var gameDescriptionHome = "Ceci est une courte aventure d'exemple pour montrer ce que le framework Escaposaurus permet facilement de réaliser.<br/>Le code source est téléchargeable sur <a href='https://github.com/RedNaK/escaposaurus' target='_blank'>GitHub</a>" ;
-		var gameMissionCall = "Voici la vidéo qu'Albert a envoyé à votre bureau d'informaticien spécialisé en récupération de données" ;
+		var gameMissionCall = "Voici la vidéo que Mme Ash Rodrigo a envoyé à votre bureau d'informaticien spécialisé en récupération de données" ;
 		var gameMissionAccept = "&raquo;&raquo; Accepter la mission et charger la clé USB dans le serveur virtuel (JOUER) &laquo;&laquo;" ;
 
 		var gameCredit = "Un jeu conçu et réalisé par : <br/>Stéphanie Mader" ;
