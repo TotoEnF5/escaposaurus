@@ -45,7 +45,7 @@
                         "folders": [
                             {
                                 "foldername": "hugh_gunn",
-                                "files": [ "rambo.jpg", "rambo2.jpg", "rambo bébou.jpg", "rambo_je_taime.jpg" ]
+                                "files": [ "affiche-rombo.jpg", "rombo_desert.jpg", "rombo_arctique.jpg", "rombo_jungle.jpg" ]
                             },
                             {
                                 "foldername": "mike_rowave",
@@ -70,7 +70,7 @@
                                 "folders": [
                                     {
                                         "foldername": "camera",
-                                        "password": "rambo",
+                                        "password": "rombo",
                                         "sequence": 1,
                                         "files": [ "09.09.2025-09-17-52.png", "09.09.2025-09-18-03.png", "09.09.2025-09-18-34.png", "09.09.2025-09-52-25.png", "09.09.2025-09-52-38.png", "09.09.2025-09-52-54.png", "09.09.2025-10-18-47.png", "09.09.2025-10-19-22.png" ]
                                     }
@@ -80,7 +80,7 @@
                     }
                 ],
                 "files": [
-                    "wouf.png"
+                    "albert + 1234 = 🥰.jpg"
                 ]
             }
 		} ;
@@ -120,7 +120,7 @@
 		/*if you put "none" or anything that is not an existing filename, the player will NOT be able to call the contacts during this sequence*/
 		var seqMainHint = [] ;
 		seqMainHint[0] = "wouf.png" ;
-		seqMainHint[1] = "rambo_je_taime.jpg" ; /*if you put anything that is not an existing filename of the udisk, the player will never be able to call any contacts or get helps during this sequence*/
+		seqMainHint[1] = "affiche-rombo.jpg" ; /*if you put anything that is not an existing filename of the udisk, the player will never be able to call any contacts or get helps during this sequence*/
 		seqMainHint[2] = "09.09.2025-10-19-22.png" ;
 		seqMainHint[3] = "mercipapa.jpg" ;
 
