@@ -51,7 +51,7 @@
                                 "foldername": "mike_rowave",
                                 "password": "01/01/1969",
                                 "sequence": 3,
-                                "files": [ "rapport.png", "vlog.mp4" ]
+                                "files": [ "RAPPORT_ULTRA_CONFIDENTIEL_V3_FINAL_FINAL.png", "vlog.mp4" ]
                             },
                             {
                                 "foldername": "albert_jr_smart",
@@ -121,7 +121,7 @@
 		var seqMainHint = [] ;
 		seqMainHint[0] = "wouf.png" ;
 		seqMainHint[1] = "rambo_je_taime.jpg" ; /*if you put anything that is not an existing filename of the udisk, the player will never be able to call any contacts or get helps during this sequence*/
-		seqMainHint[2] = "caca prout" ;
+		seqMainHint[2] = "09.09.2025-10-19-22.png" ;
 		seqMainHint[3] = "mercipapa.jpg" ;
 
 		/*contact list, vid is the name of their folder in the videoContact folder, then the game autoload the video named seq%number of the current sequence%, e.g. seq0.MP4 for the first sequence (numbered 0 because computer science habits)
@@ -132,8 +132,7 @@
 
 		/*second part of the list, contact that can help the player*/
 		var helperContacts = [] ;
-		helperContacts[0] = {"vid" : "Albert", "vod_folder" : "", "username" : "Albert (pour avoir un indice)", "canal" : "txt", "avatar" : "albert.png", "bigAvatar" : "albertbig.png"} ;
-		/*helperContacts[1] = {"vid" : "Lou", "username" : "Lou (pour avoir un deuxième indice) - par message", "canal" : "txt", "avatar" : "Lou_opt.jpg", "bigAvatar" : "avatarHelper2Big.gif"} ;*/
+		helperContacts[0] = {"vid" : "Albert", "vod_folder" : "", "username" : "ChatGPT (pour avoir un indice)", "canal" : "txt", "avatar" : "albert.png", "bigAvatar" : "albertbig.png"} ;
 
 
 		/*ce qui apparait quand on trouve le dernier élément du disque dur*/
@@ -145,10 +144,10 @@
 		/*Lou only send text message, they are stored here*/
 		var tips = {} ;
 		tips['Albert'] = [] ;
-		tips['Albert'][0] = "Je peux pas répondre à votre appel. Mais je peux vous répondre par écrit. Donc vous cherchez le surnom d'un guide ? Je crois que les contacts sont des guides justement, essayez peut-être de les appeler." ;
+		tips['Albert'][0] = "En tant que modèle de langage tout à fait éthique, je ne peux pas vous aider à vous introduire dans un système sécurusé." ;
 		tips['Albert'][1] = "" ;
 		tips['Albert'][2] = "" ;
-		tips['Albert'][3] = "Ah zut, un dossier verouillé sans infos dans scan mémo ? Y'a forcément un truc mnémotechnique facile à retenir ou retrouver. Les guides en disent quoi ?" ;
+        tips['Albert'][3] = "";
 
 
 		/*text for the instruction / solution windows*/
